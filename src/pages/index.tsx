@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { NextPage } from 'next'
 import styles from '../../styles/Home.module.css'
 
-const Home: NextPage = ()=> {
+const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>

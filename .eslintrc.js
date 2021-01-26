@@ -1,16 +1,16 @@
 module.exports = {
   // 整形を効かせたいファイルなので除外を解除
-  ignorePatterns: ["!.eslintrc.js", "!.babelrc.js"],
+  ignorePatterns: ['!.eslintrc.js', '!.babelrc.js'],
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
   ],
-  plugins: ["@typescript-eslint", "react"],
-  parser: "@typescript-eslint/parser",
+  plugins: ['@typescript-eslint', 'react'],
+  parser: '@typescript-eslint/parser',
   env: {
     browser: true,
     node: true,
@@ -18,20 +18,20 @@ module.exports = {
     jest: true,
   },
   parserOptions: {
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
   settings: {
     react: {
-      version: "detect",
+      version: 'detect',
     },
   },
   rules: {
     // 必要に応じてルールを追加
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/no-explicit-any": "off",
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
-};
+}
