@@ -1,7 +1,7 @@
-import * as React from 'react'
-import Head from 'next/head'
-import { NextPage } from 'next'
-import styles from '../../styles/Home.module.css'
+import * as React from 'react';
+import Head from 'next/head';
+import { NextPage } from 'next';
+import styles from '../../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

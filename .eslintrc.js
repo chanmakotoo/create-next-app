@@ -30,9 +30,11 @@ module.exports = {
   },
   rules: {
     // 必要に応じてルールを追加
+    semi: ['error', 'always'], // セミコロンをつけるかつけないか
+    'semi-style': ['error', 'last'],
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     'prettier/prettier': ['error', { singleQuote: true }],
   },
-}
+};
